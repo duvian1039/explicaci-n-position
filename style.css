@@ -79,6 +79,11 @@ img{
     top: 64%;
     left: 64%;
 }
+body{
+    padding-top: 100px;
+}
+
+
 .ocho{
     position: absolute;
     top: 43%;
@@ -86,4 +91,25 @@ img{
 }
 .ocho img{
     width: 90px;
+}
+
+header{
+    background-color: rgb(82, 157, 223);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.logo{
+   padding: 15px;
+}
+
+.logo img{
+    width: 90px;
+    border-radius: 50%;
+
 }
